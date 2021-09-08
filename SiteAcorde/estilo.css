@@ -1,22 +1,19 @@
-/*
-* 
-* @author Jamilton Damasceno
-* @version 0.1
-*/
-
-/* ========================= layout ======================== */
 html, body, .capa {
 	height: 100%;
 	overflow: auto;
 }
 
 body {
-	background-size: cover;
-    background: url('imagens/background.png');
-     
-    
+	
+    background: url('imagens/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+	background-size: cover;
+/*
+background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+*/
 }
 
 /* -- Barra de navegação -- */
@@ -79,10 +76,10 @@ nav.navbar-transparente {
 }
 
 .btn-roxo {
-	background: #7c25f8;
+	background: #7a0faa;
 }
 .btn-roxo:hover {
-	background-color: #6207e3;
+	background-color: #7a0faa;
 	color: white;
 }
 
@@ -124,6 +121,11 @@ footer {
 	background: #000;
 	padding: 50px 0px 20px 0px;
 	position: relative;
+
+	 text-align: center;
+    padding: 20px;
+    color: black;
+
 }
 
 .item-rede-social{
@@ -191,7 +193,7 @@ h3{
 }
 
 #servicos h2, #servicos h3 {
-	color: #7c25f8;
+	color: #7a0faa;
 }
 
 #recursos h3 {
@@ -220,15 +222,46 @@ h3{
 }
 
 .redes {
-    float: right;
-    padding-left: 10px;
+    float: center;
     display: none;
 	float: none;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    color: black;
+
+.midias{
+
+align-items: center;
+text-align: center;
+display: fixed;
+
+
+}
+
+
+#prototipo{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	margin-top: 48px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+
+#pais_do_futebol{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	margin-top: 48px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
 }
